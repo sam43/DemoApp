@@ -1,0 +1,7 @@
+<!-- res/animator/rotation.xml -->
+<!-- Source: Android Developer Website -->
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="1000"
+    android:propertyName="rotation"
+    android:valueFrom="0"
+    android:valueTo="360" />

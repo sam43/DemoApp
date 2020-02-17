@@ -1,0 +1,12 @@
+<!-- res/drawable/animvectordrawable.xml -->
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:drawable="@drawable/animated_drawable"
+    tools:targetApi="lollipop">
+    <target
+        android:name="rotationGroup"
+        android:animation="@anim/rotat_anim" />
+    <target
+        android:name="v"
+        android:animation="@anim/rotat_anim" />
+</animated-vector>
